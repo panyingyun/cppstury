@@ -106,3 +106,8 @@ the [setup script](setup.sh) as follows:
 > bash setup.sh
 ```
 The result is a fresh Git repository with one commit adding all files from the boiler plate. 
+
+### 如果遇到 “doctest.h: No such file or directory”
+所有的地方修改为 <doctest/doctest.h>
+sudo apt-get install doxygen
+sudo apt-get install doctest-dev
